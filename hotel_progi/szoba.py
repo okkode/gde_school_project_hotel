@@ -79,7 +79,7 @@ while True:
     valasztas = input("Választott művelet: ")
 
     if valasztas == "1":
-        szoba_szam = input("Add meg a foglalandó szoba számát:   \n Egyfős a szobák száma:  \n szoba 101 = 100ft/éj, szoba 103 = 150ft/éj \n Kétfős szobák száma: \n szoba 102 = 120ft/éj \n")
+        szoba_szam = input("Add meg a foglalandó szoba számát:   \n Egyfős szobák száma:  \n szoba 101 = 100ft/éj, szoba 103 = 150ft/éj \n Kétfős szobák száma: \n szoba 102 = 120ft/éj \n")
         while szoba_szam not in ["101", "102", "103"]:
             print("Nincs ilyen szobaszám.")
             szoba_szam = input("Add meg a foglalandó szoba számát: ")
